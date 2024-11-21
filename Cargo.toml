@@ -1,0 +1,27 @@
+[package]
+name = "xilem-to-do-mvc-android"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winit = { version = "0.30.5", features = ["android-game-activity"] }
+xilem = { git = "https://github.com/linebender/xilem", branch = "android-kb-accesskit" }
+
+[features]
+default = []
+desktop = []
+
+[lib]
+name="main"
+crate_type=["cdylib"]
+
+[[bin]]
+path="src/lib.rs"
+name="to_do_mvc"
+required-features = [ "desktop" ]
+
+[patch.crates-io]
+dpi = { git = "https://github.com/mwcampbell/winit", branch = "android-combined-patches-backport" }
+winit = { git = "https://github.com/mwcampbell/winit", branch = "android-combined-patches-backport" }
