@@ -21,12 +21,12 @@ checksum = "c71b1793ee61086797f5c80b6efa2b8ffa6d5dd703f118545808a7f2e27f7046"
 [[package]]
 name = "accesskit"
 version = "0.17.1"
-source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#2d41add45c1db2acdb668898e78ba0f64ba224b1"
+source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#e9bd8c43c6dd3b804437c2e5395fc5bb6f526b17"
 
 [[package]]
 name = "accesskit_android"
 version = "0.1.0"
-source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#2d41add45c1db2acdb668898e78ba0f64ba224b1"
+source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#e9bd8c43c6dd3b804437c2e5395fc5bb6f526b17"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
@@ -39,7 +39,7 @@ dependencies = [
 [[package]]
 name = "accesskit_atspi_common"
 version = "0.10.1"
-source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#2d41add45c1db2acdb668898e78ba0f64ba224b1"
+source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#e9bd8c43c6dd3b804437c2e5395fc5bb6f526b17"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
@@ -52,7 +52,7 @@ dependencies = [
 [[package]]
 name = "accesskit_consumer"
 version = "0.26.0"
-source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#2d41add45c1db2acdb668898e78ba0f64ba224b1"
+source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#e9bd8c43c6dd3b804437c2e5395fc5bb6f526b17"
 dependencies = [
  "accesskit",
  "hashbrown 0.15.2",
@@ -62,7 +62,7 @@ dependencies = [
 [[package]]
 name = "accesskit_macos"
 version = "0.18.1"
-source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#2d41add45c1db2acdb668898e78ba0f64ba224b1"
+source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#e9bd8c43c6dd3b804437c2e5395fc5bb6f526b17"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
@@ -75,7 +75,7 @@ dependencies = [
 [[package]]
 name = "accesskit_unix"
 version = "0.13.1"
-source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#2d41add45c1db2acdb668898e78ba0f64ba224b1"
+source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#e9bd8c43c6dd3b804437c2e5395fc5bb6f526b17"
 dependencies = [
  "accesskit",
  "accesskit_atspi_common",
@@ -92,7 +92,7 @@ dependencies = [
 [[package]]
 name = "accesskit_windows"
 version = "0.24.1"
-source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#2d41add45c1db2acdb668898e78ba0f64ba224b1"
+source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#e9bd8c43c6dd3b804437c2e5395fc5bb6f526b17"
 dependencies = [
  "accesskit",
  "accesskit_consumer",
@@ -106,7 +106,7 @@ dependencies = [
 [[package]]
 name = "accesskit_winit"
 version = "0.23.1"
-source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#2d41add45c1db2acdb668898e78ba0f64ba224b1"
+source = "git+https://github.com/AccessKit/accesskit?branch=android-basics#e9bd8c43c6dd3b804437c2e5395fc5bb6f526b17"
 dependencies = [
  "accesskit",
  "accesskit_android",
@@ -815,7 +815,7 @@ checksum = "75b325c5dbd37f80359721ad39aca5a29fb04c89279657cffdda8736d0c0b9d2"
 [[package]]
 name = "dpi"
 version = "0.1.1"
-source = "git+https://github.com/mwcampbell/winit?branch=android-combined-patches-backport#2e60b500a5ae8aca55866bae808650ada4c2c88e"
+source = "git+https://github.com/mwcampbell/winit?branch=android-kb-backport#94e48e9b4b3e8a6be5231a637f7d52dfef34fbad"
 
 [[package]]
 name = "endi"
@@ -3519,7 +3519,7 @@ checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
 [[package]]
 name = "winit"
 version = "0.30.5"
-source = "git+https://github.com/mwcampbell/winit?branch=android-combined-patches-backport#2e60b500a5ae8aca55866bae808650ada4c2c88e"
+source = "git+https://github.com/mwcampbell/winit?branch=android-kb-backport#94e48e9b4b3e8a6be5231a637f7d52dfef34fbad"
 dependencies = [
  "ahash",
  "android-activity",

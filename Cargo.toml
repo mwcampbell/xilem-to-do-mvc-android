@@ -30,5 +30,5 @@ accesskit_macos = { git = "https://github.com/AccessKit/accesskit", branch = "an
 accesskit_unix = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
 accesskit_windows = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
 accesskit_winit = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
-dpi = { git = "https://github.com/mwcampbell/winit", branch = "android-combined-patches-backport" }
-winit = { git = "https://github.com/mwcampbell/winit", branch = "android-combined-patches-backport" }
+dpi = { git = "https://github.com/mwcampbell/winit", branch = "android-kb-backport" }
+winit = { git = "https://github.com/mwcampbell/winit", branch = "android-kb-backport" }
