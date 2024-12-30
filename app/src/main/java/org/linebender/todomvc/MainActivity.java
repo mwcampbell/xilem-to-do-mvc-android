@@ -31,4 +31,13 @@ public class MainActivity extends GameActivity {
         // consistent here and inside AndroidManifect.xml
         System.loadLibrary("main");
     }
+
+    @Override
+    protected InputEnabledSurfaceView createSurfaceView() {
+        InputEnabledSurfaceView view = new InputEnabledSurfaceView(this, false);
+        view.setFocusable(true);
+        view.setFocusableInTouchMode(true);
+        view.requestFocus();
+        return view;
+    }
 }

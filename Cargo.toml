@@ -15,7 +15,7 @@ desktop = []
 
 [lib]
 name="main"
-crate_type=["cdylib"]
+crate-type=["cdylib"]
 
 [[bin]]
 path="src/lib.rs"
@@ -23,5 +23,12 @@ name="to_do_mvc"
 required-features = [ "desktop" ]
 
 [patch.crates-io]
+accesskit = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
+accesskit_atspi_common = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
+accesskit_consumer = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
+accesskit_macos = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
+accesskit_unix = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
+accesskit_windows = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
+accesskit_winit = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
 dpi = { git = "https://github.com/mwcampbell/winit", branch = "android-combined-patches-backport" }
 winit = { git = "https://github.com/mwcampbell/winit", branch = "android-combined-patches-backport" }
