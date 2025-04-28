@@ -6,7 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-winit = { version = "0.30.5", features = ["android-game-activity"] }
+accesskit_winit = { version = "0.26.0", features = ["accesskit_android"] }
+winit = { version = "0.30.9", features = ["android-game-activity"] }
 xilem = { git = "https://github.com/linebender/xilem", branch = "android-kb-accesskit" }
 
 [features]
@@ -23,12 +24,13 @@ name="to_do_mvc"
 required-features = [ "desktop" ]
 
 [patch.crates-io]
-accesskit = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
-accesskit_atspi_common = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
-accesskit_consumer = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
-accesskit_macos = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
-accesskit_unix = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
-accesskit_windows = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
-accesskit_winit = { git = "https://github.com/AccessKit/accesskit", branch = "android-basics" }
+accesskit = { git = "https://github.com/AccessKit/accesskit", branch = "android-less-java" }
+accesskit_android = { git = "https://github.com/AccessKit/accesskit", branch = "android-less-java" }
+accesskit_atspi_common = { git = "https://github.com/AccessKit/accesskit", branch = "android-less-java" }
+accesskit_consumer = { git = "https://github.com/AccessKit/accesskit", branch = "android-less-java" }
+accesskit_macos = { git = "https://github.com/AccessKit/accesskit", branch = "android-less-java" }
+accesskit_unix = { git = "https://github.com/AccessKit/accesskit", branch = "android-less-java" }
+accesskit_windows = { git = "https://github.com/AccessKit/accesskit", branch = "android-less-java" }
+accesskit_winit = { git = "https://github.com/AccessKit/accesskit", branch = "android-less-java" }
 dpi = { git = "https://github.com/mwcampbell/winit", branch = "android-kb-backport" }
 winit = { git = "https://github.com/mwcampbell/winit", branch = "android-kb-backport" }
